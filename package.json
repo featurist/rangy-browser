@@ -18,6 +18,15 @@
   "directories": {
     "lib": "./lib"
   },
+  "scripts": {
+    "test": "node ./compile.js && ./node_modules/mocha/bin/mocha test/jsdom_test.js"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "jsdom": "*",
+    "stitchy": "*",
+    "request": "*"
+  }
 }
