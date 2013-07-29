@@ -1,6 +1,4 @@
-// npm 'rangy-browser' package --- 
-
-(function(){
+// npm 'rangy-browser' package ---
 // lib/rangy-core.js
 
 /**
@@ -7527,5 +7525,5 @@ rangy.createModule("TextRange", function(api, module) {
     };
 });;
 
-exports.rangy = rangy })();
+exports.rangy = rangy
 
